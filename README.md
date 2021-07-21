@@ -2,4 +2,6 @@
 #### using
 - light & dark  theme
 - Css3 
-- Pure JS
+- javascript
+- Aos 
+  - animation on scroll library
