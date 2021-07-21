@@ -6,7 +6,7 @@ button.style.display = "flex";
 })
 
 
-button.addEventListener("dblclick", function() {
+button.addEventListener("click", function() {
 	const button = document.querySelector(".nav");
 button.style.display = "none";
 })
@@ -24,7 +24,7 @@ dark.style.backgroundColor = "#1A202C";
 
 })
 
-light.addEventListener("dblclick", function() {
+light.addEventListener("click", function() {
 	const light = document.querySelector("body");
 light.classList.remove("dark");
 let dark = document.querySelector("#light");
